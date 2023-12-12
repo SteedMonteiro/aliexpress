@@ -1,0 +1,17 @@
+{
+  "name": "aliexpress-product-bot",
+  "version": "1.0.0",
+  "description": "A bot to retrieve and process data from AliExpress product listings to identify products with a specific order pattern.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "nodemailer": "^6.6.0",
+    "node-schedule": "^2.0.0"
+  }
+}
